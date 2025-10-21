@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HERO SECTION OF PERSONAL WEBSITE -->
+
+    <div class="container col-xxl-8 px-4 pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./assets/hero.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            height="200"
+            loading="lazy"
+            style="border-radius: 50%"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            I'm <span class="text-primary">Rishi Rai </span>
+          </h1>
+          <p class="lead">
+            a programmer who loves to code and build web applications.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+              My Resume
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Get In Touch
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class="container my-5 pt-5">
+      <section class="about-section py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="display-5 mb-4">About Me</h2>
+              <div class="mb-4">
+                <img
+                  src="./assets/my.png"
+                  alt="Rishi Rai Profile"
+                  class="profile-image-small mb-4"
+                  style="border-radius: 50%"
+                  height="100px"
+                />
+              </div>
+              <p class="lead mb-4">
+                I'm a passionate software developer focused on creating elegant
+                solutions to complex problems. With expertise in both frontend
+                and backend development, I build modern, scalable web
+                applications that deliver exceptional user experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <div
+        class="position-relative p-5 text-center text-muted bg-body rounded-5"
+      >
+        <img
+          src="./assets/my.png"
+          alt="Profile"
+          style="border-radius: 50%"
+          height="100px"
+        />
+        <h2 class="text-body-emphasis pt-3">Hello, I'm Rishi</h2>
+        <p class="col-lg-6 mx-auto mb-4">
+          I'm a passionate software developer who transforms complex problems
+          into elegant, automated solutions.
+        </p>
+      </div> -->
+    </div>
+    <!-- A resume page that lists MY education, work experience, skills, and other relevant information  -->
+    <!-- MY EDUCATION -->
+    <div class="container">
+      <section class="education-section py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+              <h2 class="display-5 fw-bold mb-3">Education</h2>
+              <hr class="w-25 mx-auto mb-5" />
+            </div>
+          </div>
+
+          <div class="row g-4 justify-content-center">
+            <div class="col-md-4">
+              <div class="education-card p-4 h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="icon-square text-primary me-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-mortarboard"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 class="h4 mb-0">Bachelor of Technology</h3>
+                </div>
+                <p class="mb-2 fw-bold">Computer Science & Data Analytics</p>
+                <p class="mb-1">GLA University, Mathura</p>
+                <p class="text-muted">Expected Graduation: July 2025</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="education-card p-4 h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="icon-square text-primary me-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-buildings"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"
+                      />
+                    </svg>
+                  </div>
+                  <h3 class="h4 mb-0">Intermediate</h3>
+                </div>
+                <p class="mb-2 fw-bold">Science Stream</p>
+                <p class="mb-1">Model School, Dehri</p>
+                <p class="text-muted">Completed: May 2021</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="education-card p-4 h-100">
+                <div class="d-flex align-items-center mb-3">
+                  <div class="icon-square text-primary me-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="currentColor"
+                      class="bi bi-book"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"
+                      />
+                    </svg>
+                  </div>
+                  <h3 class="h4 mb-0">High School</h3>
+                </div>
+                <p class="mb-2 fw-bold">General Studies</p>
+                <p class="mb-1">Model School, Dehri</p>
+                <p class="text-muted">Completed: May 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="container px-5 py-5" id="hanging-icons">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+            <h2 class="mb-4 display-5 text-center">My Education</h2>
+            <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+          </div>
+        </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                fill="currentColor"
+                class="bi bi-mortarboard"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z"
+                />
+                <path
+                  d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">
+                Bachelor of Technology in Computer Science
+              </h3>
+              <p>
+                Specialization in Data Analytics GLA University, Mathura |
+                Graduated July 2025
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                fill="currentColor"
+                class="bi bi-buildings"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022M6 8.694 1 10.36V15h5zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5z"
+                />
+                <path
+                  d="M2 11h1v1H2zm2 0h1v1H4zm-2 2h1v1H2zm2 0h1v1H4zm4-4h1v1H8zm2 0h1v1h-1zm-2 2h1v1H8zm2 0h1v1h-1zm2-2h1v1h-1zm0 2h1v1h-1zM8 7h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zM8 5h1v1H8zm2 0h1v1h-1zm2 0h1v1h-1zm0-2h1v1h-1z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Intermediate</h3>
+              <p>Model School, Dehri | May 2021</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="30"
+                fill="currentColor"
+                class="bi bi-book"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">High School</h3>
+              <p>Model School, Dehri | May 2019</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- SKILLS -->
+    <div class="container mt-5">
+      <section class="bsb-skill-1 bg-light px-5 py-5">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+              <h2 class="mb-3 display-5 text-center">Technical Skills</h2>
+              <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container overflow-hidden">
+          <div class="row justify-content-xl-center gy-5 gy-sm-4">
+            <div class="col-12 col-sm-6 col-xl-5">
+              <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5">
+                <h3 class="fw-bold mb-4">Frontend Development</h3>
+                <p class="text-secondary fst-italic mb-2">
+                  React.js, React Native, Next.js
+                </p>
+                <p class="text-secondary fst-italic mb-2">
+                  JavaScript (ES6+), HTML5, CSS3
+                </p>
+                <p class="text-secondary fst-italic mb-2">
+                  Tailwind CSS, Responsive Design
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-5">
+              <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5">
+                <h3 class="fw-bold mb-4">Backend Development</h3>
+                <p class="text-secondary fst-italic mb-2">
+                  Node.js, Express.js
+                </p>
+                <p class="text-secondary fst-italic mb-2">RESTful API Design</p>
+                <p class="text-secondary fst-italic mb-2">MongoDB, SQL</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-5">
+              <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5">
+                <h3 class="fw-bold mb-4">Programming Languages</h3>
+                <p class="text-secondary fst-italic mb-2">
+                  Java (5★ HackerRank)
+                </p>
+                <p class="text-secondary fst-italic mb-2">C, Python</p>
+                <p class="text-secondary fst-italic mb-2">Shell Scripting</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-xl-5">
+              <div class="bg-white rounded shadow-sm p-3 p-md-4 p-xxl-5">
+                <h3 class="fw-bold mb-4">Data & Analytics</h3>
+                <p class="text-secondary fst-italic mb-2">Power BI, Tableau</p>
+                <p class="text-secondary fst-italic mb-2">Data Visualization</p>
+                <p class="text-secondary fst-italic mb-2">Microsoft Azure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- WORK EXPERIENCE -->
+    <div class="container">
+      <div class="row justify-content-md-center px-4 py-5">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+          <h2 class="mb-4 display-5 text-center">Professional Experience</h2>
+          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+        </div>
+      </div>
+      <div class="row g-6 py-3 row-cols-1 row-cols-lg-2">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="30"
+              fill="currentColor"
+              class="bi bi-briefcase"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">
+              Thales DIS Tech Pvt. Ltd, Noida
+            </h3>
+
+            <p>BPS Department Intern | June 2023 – July 2023</p>
+
+            <ul>
+              <li>
+                Designed and implemented a Pluggable Authentication Module for
+                internal security infrastructure using Linux and C
+              </li>
+              <li>
+                Automated validation and testing processes using Python and
+                shell scripts, covering 20+ authentication scenarios and edge
+                cases
+              </li>
+              <li>
+                Reduced manual testing effort by 80%, significantly enhancing
+                reliability and ensuring consistent validation across
+                deployments
+              </li>
+              <li>
+                Demonstrated strong problem-solving abilities in a production
+                cybersecurity environment
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="30"
+              fill="currentColor"
+              class="bi bi-briefcase"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5m1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0M1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">GLA University</h3>
+            <p>Application Developer Intern | July 2022 – Aug 2022</p>
+
+            <ul>
+              <li>
+                Gained hands-on expertise in HTML, CSS, and JavaScript through
+                intensive training
+              </li>
+              <li>
+                Developed TuneWave, a feature-rich music player application
+                using React
+              </li>
+              <li>
+                Applied modern web development practices and component-based
+                architecture
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <!-- <div class="container mt-5">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+          <h2 class="mb-4 display-5 text-center">PROJECTS</h2>
+          <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >Sage Learning Management Application</strong
+              >
+              <h3 class="mb-0">Sage LMS</h3>
+              <div class="mb-1 text-body-secondary">Nov 12</div>
+              <p class="card-text mb-auto">
+                An intelligent learning platform that's revolutionizing how
+                students and educators interact with educational content.
+              </p>
+              <a
+                href="#"
+                class="icon-link gap-1 icon-link-hover stretched-link"
+              >
+                Continue reading
+                <svg class="bi" aria-hidden="true">
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg
+                aria-label="Placeholder: Thumbnail"
+                class="bd-placeholder-img"
+                height="250"
+                preserveAspectRatio="xMidYMid slice"
+                role="img"
+                width="200"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success-emphasis"
+                >DevSphere - Dynamic Portfolio & Blog Platform</strong
+              >
+              <h3 class="mb-0">DevSphere</h3>
+              <div class="mb-1 text-body-secondary">Nov 11</div>
+              <p class="mb-auto">
+                A game-changing content management platform for developers who
+                want to showcase their work without the hassle.
+              </p>
+              <a
+                href="#"
+                class="icon-link gap-1 icon-link-hover stretched-link"
+              >
+                Continue reading
+                <svg class="bi" aria-hidden="true">
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg
+                aria-label="Placeholder: Thumbnail"
+                class="bd-placeholder-img"
+                height="250"
+                preserveAspectRatio="xMidYMid slice"
+                role="img"
+                width="200"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- PROJECTS SECTION -->
+    <section class="container px-5 py-5" id="projects">
+      <div class="text-center mb-5">
+        <h2 class="display-5 text-gradient">PROJECTS</h2>
+        <p class="text-muted mb-3">A glimpse into my featured work</p>
+        <hr class="w-25 mx-auto border-primary" />
+      </div>
+
+      <div class="row g-4 mt-5">
+        <!-- Project 1 -->
+        <div class="col-md-6">
+          <div class="card project-card shadow-lg border-0 h-100">
+            <div class="card-img-container">
+              <img
+                src="./assets/prj1.png"
+                class="card-img-top"
+                alt="DevSphere"
+                height="424px"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                Sage Learning Management Application
+              </h5>
+              <p class="text-muted small mb-2">MERN Stack, AI Integration</p>
+              <p class="card-text">
+                An intelligent learning platform that revolutionizes how
+                students and educators interact with educational content.
+              </p>
+              <a href="#" class="btn btn-outline-primary mt-2">
+                View Project <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-6">
+          <div class="card project-card shadow-lg border-0 h-100">
+            <div class="card-img-container">
+              <img
+                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+                class="card-img-top"
+                alt="DevSphere"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                DevSphere - Portfolio & Blog Platform
+              </h5>
+              <p class="text-muted small mb-2">Next.js, Node.js, MongoDB</p>
+              <p class="card-text">
+                A powerful content management platform that enables developers
+                to showcase their work and write blogs effortlessly.
+              </p>
+              <a href="#" class="btn btn-outline-primary mt-2">
+                View Project <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT ME -->
+
+    <div class="container">
+      <section class="container py-5 my-5" id="contact">
+        <div class="row justify-content-md-center">
+          <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+            <h2 class="mb-4 display-5 text-center">Get In Touch</h2>
+            <hr class="w-50 mx-auto mb-5 border-dark-subtle" />
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!-- Contact Info Cards -->
+            <div class="row g-4 mb-5">
+              <div class="col-md-4">
+                <div class="text-center p-4 bg-light rounded">
+                  <i class="bi bi-envelope fs-1 text-primary mb-3 d-block"></i>
+                  <h5 class="fw-bold mb-2">Email</h5>
+                  <a
+                    href="mailto:rishi@example.com"
+                    class="text-decoration-none text-muted"
+                    >rishi.rai@zohomail.in</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-center p-4 bg-light rounded">
+                  <i class="bi bi-linkedin fs-1 text-primary mb-3 d-block"></i>
+                  <h5 class="fw-bold mb-2">LinkedIn</h5>
+                  <a
+                    href="#"
+                    class="text-decoration-none text-muted"
+                    target="_blank"
+                    >linkedin.com/rishii13/</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-center p-4 bg-light rounded">
+                  <i class="bi bi-github fs-1 text-primary mb-3 d-block"></i>
+                  <h5 class="fw-bold mb-2">GitHub</h5>
+                  <a
+                    href="#"
+                    class="text-decoration-none text-muted"
+                    target="_blank"
+                    >github.com/rishirai13</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="bg-light rounded-4 p-4 p-md-5">
+              <form>
+                <div class="mb-4">
+                  <label for="name" class="form-label fw-semibold">Name</label>
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    id="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="email" class="form-label fw-semibold"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control form-control-lg"
+                    id="email"
+                    placeholder="your.email@example.com"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="message" class="form-label fw-semibold"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control form-control-lg"
+                    id="message"
+                    rows="5"
+                    placeholder="Your message..."
+                    required
+                  ></textarea>
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary btn-lg">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container">
+      <footer
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top"
+      >
+        <div class="col mb-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            aria-label="Bootstrap"
+          >
+            <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <p class="text-body-secondary">© 2025</p>
+        </div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- BOOTSTRAP JAVASCRIPT LINK -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
